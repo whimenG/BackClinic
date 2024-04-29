@@ -1,8 +1,8 @@
-package com.example.clinicback;
+package com.example.clinicback.doctor;
 
 import org.springframework.stereotype.Service;
 
 @Service
 public interface DoctorsService {
-    public  Doctor createDoctor(Doctor doctor);
+    public Doctor createDoctor(Doctor doctor);
 }

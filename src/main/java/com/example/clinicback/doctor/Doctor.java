@@ -1,4 +1,4 @@
-package com.example.clinicback;
+package com.example.clinicback.doctor;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -17,9 +17,9 @@ public class Doctor {
     private Long id;
     private String name;
     private String surname;
-    private long indification_numer;
-    private String adress;
-    private String phone_numer;
+    private long indification_number;
+    private String address;
+    private String phone_number;
     private boolean online_Consultations;
     private String working_hours;
 }

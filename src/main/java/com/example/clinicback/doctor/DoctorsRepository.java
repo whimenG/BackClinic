@@ -1,4 +1,4 @@
-package com.example.clinicback;
+package com.example.clinicback.doctor;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
