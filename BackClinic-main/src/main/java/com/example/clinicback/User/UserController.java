@@ -1,6 +1,8 @@
-package com.example.clinicback.doctor;
+package com.example.clinicback.User;
 
 
+import com.example.clinicback.User.User;
+import com.example.clinicback.User.UserService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

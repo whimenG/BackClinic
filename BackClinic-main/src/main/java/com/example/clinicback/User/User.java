@@ -1,4 +1,4 @@
-package com.example.clinicback.doctor;
+package com.example.clinicback.User;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-@Table(name = "user")
+@Table( schema = "clinic", name = "doctors")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
